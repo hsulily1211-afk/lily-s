@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>動畫</title>
+<style>
+body {
+  background-image: url('background.PNG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+</style>
+</head>
+<body>
+  
+<br>
+<br>
+
+
+
+<div style="text-align: center;">
+    <a href="index.html" class="nav-link">首頁</a>
+    <a href="-.-.html" class="nav-link">插畫作品</a>
+    <a href="O.o.html" class="nav-link">動畫</a>
+    <a href="-3-.html" class="nav-link">其他作品</a>
+    <a href="ouO.html" class="nav-link">關於我</a>
+</div>
+
+<style>
+/* 1️⃣ 基本樣式 */
+.nav-link {
+    color: rgb(0, 73, 244);       /* 初始文字顏色 */
+    font-size: 2.5ex;                /* 字體大小 */
+    text-decoration: none;           /* 去掉底線 */
+    margin: 0 10px;                  /* 左右間距替代 &nbsp; */
+    transition: color 0.2s;          /* 文字顏色變化動畫 */
+}
+
+/* 2️⃣ 滑鼠移上去 */
+.nav-link:hover {
+    color: rgb(255, 166, 33);       /* hover 顏色 */
+}
+
+/* 3️⃣ 按下去 */
+.nav-link:active {
+    color: rgb(181, 203, 255);       /* 按下時顏色 */
+}
+</style>
+<!-- 單色實線 -->
+<hr style="border:0; height:1px; background:#000000;font-size: 1cm;">
+
+<h1 style="text-align: center;font-size: 6ex;color: rgba(0, 73, 244)" >Animation</h1>
+
+<div style="text-align: center;">
+<video width="960" height="540" controls>
+  <source src="AAA.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+<br>
+<h1>夏日</h1>
+<a href="https://www.instagram.com/reel/DEFNNOYPRMa/?igsh=MTR0eHl4ZDFkdHFoYw==" style="text-decoration: none">大二2D期末</a>
+</div>
+<br><br>
+
+<!-- 第一組影片 -->
+<div class="video-gallery-top">
+  <video src="g (1).mp4" autoplay loop muted playsinline></video>
+  <video src="g (2).mp4" autoplay loop muted playsinline></video>
+  <video src="g (3).mp4" autoplay loop muted playsinline></video>
+  <video src="g (4).mp4" autoplay loop muted playsinline></video>
+  <video src="g (5).mp4" autoplay loop muted playsinline></video>
+  <video src="g (6).mp4" autoplay loop muted playsinline></video>
+  <video src="g (7).mp4" autoplay loop muted playsinline></video>
+  <video src="g (8).mp4" autoplay loop muted playsinline></video>
+  <video src="g (9).mp4" autoplay loop muted playsinline></video>
+  <video src="g (10).mp4" autoplay loop muted playsinline></video>
+  <video src="g (11).mp4" autoplay loop muted playsinline></video>
+</div>
+
+<style>
+.video-gallery-top {
+  display: grid;
+  grid-template-columns: repeat(4, auto); /* ✅ 改成每排4個影片 */
+  gap: 30px 30px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.video-gallery-top video {
+  width: 180px;   /* ✅ 稍微放大一點，視覺剛好 */
+  height: 100px;
+  border-radius: 1px;
+  justify-content: center;
+}
+</style>
+<p style="text-align: center;">我所負責的部分</p>
+<br>
+
+<p class="floating-text" style="text-align: center;"> *°•~•°*⁀➷=͟͟͞♡♡ </p>
+<style>
+  /* 1️⃣ 設定文字的樣式與動畫 */
+  .floating-text {
+    font-size: 4ex;                        /* 字體大小 */
+    color: rgb(255, 255, 255);             /* 文字顏色（白色） */
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4); /* 文字陰影，讓字更有立體感 */
+    animation: float 4s ease-in-out infinite;  /* 啟用名為 float 的動畫，持續循環 */
+  }
+
+  /* 2️⃣ 定義「float」動畫 */
+  @keyframes float {
+    0% { transform: translateY(0px); }     /* 動畫起點：文字在原位置 */
+    50% { transform: translateY(-15px); }  /* 動畫中間：文字上升 15px */
+    100% { transform: translateY(0px); }   /* 動畫結束：回到原位置 */
+  }
+</style>
+
+<br>
+<h2 style="text-align: center;">小動畫練習</h2>
+
+<!-- 第二組影片 -->
+<div class="video-gallery-bottom">
+  <video src="An (1).mp4" autoplay loop muted playsinline></video>
+  <video src="An (4).mp4" autoplay loop muted playsinline></video>
+  <video src="An(3).mp4" autoplay loop muted playsinline></video>
+  <video src="An (2).mp4" autoplay loop muted playsinline></video>
+</div>
+
+<style>
+.video-gallery-bottom {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 40px 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.video-gallery-bottom video {
+  width: 480px;
+  height: 270px;
+  border-radius: 10px;
+  justify-content: center;
+}
+</style>
+
+
+</body>
+</html>

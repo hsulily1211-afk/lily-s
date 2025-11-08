@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>其他作品</title>
+<style>
+body {
+  background-image: url('background (4).PNG');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</head>
+<body style="background-color: rgba(128, 255, 0, 0.479);">
+
+<br>
+<br>
+
+<div style="text-align: center;">
+    <a href="index.html" class="nav-link">首頁</a>
+    <a href="-.-.html" class="nav-link">插畫作品</a>
+    <a href="O.o.html" class="nav-link">動畫</a>
+    <a href="-3-.html" class="nav-link">其他作品</a>
+    <a href="ouO.html" class="nav-link">關於我</a>
+</div>
+
+<style>
+/* 1️⃣ 基本樣式 */
+.nav-link {
+    color: rgb(178, 255, 154);       /* 初始文字顏色 */
+    font-size: 2.5ex;                /* 字體大小 */
+    text-decoration: none;           /* 去掉底線 */
+    margin: 0 10px;                  /* 左右間距替代 &nbsp; */
+    transition: color 0.2s;          /* 文字顏色變化動畫 */
+}
+
+/* 2️⃣ 滑鼠移上去 */
+.nav-link:hover {
+    color: rgb(255, 243, 68);       /* hover 顏色 */
+}
+
+/* 3️⃣ 按下去 */
+.nav-link:active {
+    color: rgb(0, 66, 6);       /* 按下時顏色 */
+}
+</style>
+
+<hr style="border:0; height:1px; background:#f7fffa80;font-size: 1cm;">
+<h1 style="text-align: center;font-size: 6ex;color: rgb(178, 255, 154);" >Other Works</h1>
+<br>
+
+<p style="text-align: center;color: rgb(178, 255, 154);letter-spacing: 2px;">服設立繪</p>
+<picture class="gallery">
+  <!-- 第一排，前三張較大 -->
+  <img src="o (1).png" alt="Girl in a jacket" class="large">
+  <img src="o (2).png" alt="Girl in a jacket" class="large">
+  <img src="o (3).png" alt="Girl in a jacket" class="large">
+  <img src="o (7).png" alt="Girl in a jacket" class="large">
+</picture>
+
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;      /* 自動換行 */
+  gap: 15px;            /* 每張圖間距 */
+  justify-content: center; /* 置中 */
+}
+
+.gallery img {
+  width: 200px;          /* ✅ 框的寬度 */
+  height: 200px;         /* ✅ 框的高度 */
+  object-fit: contain;   /* ✅ 保持比例、不裁切 */
+  border-radius: 10px;
+  padding: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* 第一排大圖 */
+.gallery img.large {
+  width: 350px;         /* 可自行調整大小 */
+}
+</style>
+
+
+
+<br>
+<br>
+<p style="text-align: center;color: rgb(178, 255, 154);letter-spacing: 2px;">手縫娃娃</p>
+
+<picture class="gallery">
+  <img src="D (1).png" alt="Girl in a jacket" class="small">
+  <img src="D (2).png" alt="Girl in a jacket" class="small">
+  <img src="D (3).png" alt="Girl in a jacket" class="small">
+</picture>
+
+<style>
+.gallery {
+  display: flex;
+  flex-wrap: wrap;      
+  gap: 30px;            
+  justify-content: center;
+}
+
+.gallery img {
+  height: auto;
+  width: 200px;
+  object-fit: contain;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* ✅ 加上平滑動畫 */
+}
+
+/* ✅ 滑鼠移上去放大 */
+.gallery img:hover {
+  transform: scale(2); /* 放大 1.1 倍 */
+}
+</style>
+
+<br>
+<p style="text-align: center;color: rgb(178, 255, 154);letter-spacing: 2px;">其他</p>
+<picture class="art-gallery">
+  <img src="uu (1).png" alt="Artwork 1">
+  <img src="uu (2).png" alt="Artwork 2">
+  <img src="uu (3).png" alt="Artwork 3">
+  <img src="uu (4).png" alt="Artwork 4">
+  <img src="uu (5).png" alt="Artwork 5">
+  <img src="uu (6).png" alt="Artwork 6">
+  <img src="uu (7).png" alt="Artwork 7">
+  <img src="uu (8).png" alt="Artwork 7">
+  <img src="uu (9).png" alt="Artwork 7">
+  <img src="uu (10).png" alt="Artwork 7">
+  <img src="uu (11).png" alt="Artwork 7">
+  <img src="uu (12).png" alt="Artwork 7">
+  <img src="uu (13).png" alt="Artwork 7">
+  <img src="uu (14).png" alt="Artwork 7">
+  <img src="uu (15).png" alt="Artwork 7">
+  <img src="uu (16).png" alt="Artwork 7">
+  <img src="uu (17).png" alt="Artwork 7">
+  <img src="uu (18).png" alt="Artwork 7">
+  <img src="uu (19).png" alt="Artwork 7">
+</picture>
+
+<style>
+/* 📦 整體圖庫設定 */
+.art-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+/* 🖼 每張圖片框 */
+.art-gallery img {
+  width: 100%;
+  aspect-ratio: 1 / 1;        /* ✅ 強制外框為正方形 */
+  object-fit: cover;          /* ✅ 填滿正方形框，但不變形 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.art-gallery img:hover {
+  object-fit: contain;
+  background-color: #00000000; /* 加個背景讓比例不同時更好看 */
+  transform: scale(5);
+}
+
+/* 📱 可選：小螢幕時自動調整 */
+@media (max-width: 600px) {
+  .art-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>
+
+
+
+</body>
+</html>
